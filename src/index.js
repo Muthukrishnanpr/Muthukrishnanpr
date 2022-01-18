@@ -6,10 +6,10 @@ import ContextThemeProvider from './contexts/ContextTheme';
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <ContextThemeProvider>
+    <ContextThemeProvider>
       <ContextTheme />
-    </ContextThemeProvider> */}
-    <App />
+    </ContextThemeProvider>
+    {/* <App /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
